@@ -129,11 +129,13 @@ footer h1 {
 }
 
 .exprence-item {
-   width: 40%;
-   margin: 5%;
-
-
-   box-shadow: 10px 10px 40px gray;
+   width: 50%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding: 30px 50px;
+   box-shadow: 5px 5px 20px gray;
+   text-align: left;
+   position: relative;
    i
 }
 
@@ -144,5 +146,16 @@ footer h2 {
 .finish-item {
    text-align: center;
    margin-bottom: -40px;
+}
 
+#left-border {
+   border-left: 15px solid;
+   border-image: linear-gradient(rgb(255, 94, 0), rgb(255, 174, 0));
+   border-image-slice: 1;
+}
+
+#right-border {
+   border-left: 15px solid;
+   border-image: linear-gradient(rgb(255, 174, 0), rgb(255, 94, 0));
+   border-image-slice: 1;
 }
