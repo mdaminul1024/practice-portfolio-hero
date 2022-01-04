@@ -98,6 +98,7 @@ section {
 
 footer {
    margin-top: 50px;
+   margin-bottom: 150px;
 }
 
 footer h1 {
@@ -107,10 +108,39 @@ footer h1 {
 .footer-header {
    font-size: 70px;
    padding-left: 5%;
+
 }
 
 .flexible-content {
    display: flex;
    padding-left: 5%;
    padding-right: 5%;
+}
+
+.red {
+   background-image: url(exp-bg.png);
+   background-repeat: no-repeat;
+   position: absolute;
+   width: 12%;
+   margin-top: -90px;
+   padding-left: -5%;
+
+
+}
+
+.exprence-item {
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   box-shadow: 10px 10px 40px gray;
+   i
+}
+
+footer h2 {
+   font-size: 30px;
+}
+
+.finish-item {
+   align-items: center;
+   margin-bottom: -120px;
 }
