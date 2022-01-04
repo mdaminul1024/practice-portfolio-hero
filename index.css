@@ -28,6 +28,10 @@ section {
    width: 100%;
 }
 
+.head-h1 {
+   font-size: 55px;
+}
+
 .hire-me {
    text-decoration: none;
    background-image: linear-gradient(rgb(255, 174, 0), rgb(255, 94, 0));
