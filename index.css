@@ -24,7 +24,7 @@ section {
    padding-left: 5%;
 }
 
-img {
+.size {
    width: 100%;
 }
 
@@ -51,4 +51,43 @@ img {
    background-repeat: no-repeat;
    background-size: cover;
 
+}
+
+.cv {
+   text-decoration: none;
+   background-image: linear-gradient(rgb(255, 174, 0), rgb(255, 94, 0));
+   padding: 10px 40px;
+   border-radius: 7px;
+   font-weight: 600;
+   color: white;
+   position: absolute;
+   margin-top: 10px;
+   transition: 0.5s;
+}
+
+.cv:hover {
+   background-image: linear-gradient(rgb(255, 94, 0), rgb(255, 174, 0));
+   transition: 1s;
+}
+
+.dream-big {
+   margin-top: 100px;
+}
+
+.second-one {
+   width: 70%;
+   padding-right: 8%;
+   padding-left: 5%;
+}
+
+.second-bg {
+   width: 110%;
+   margin-top: 100px;
+}
+
+.dream-big {
+   background-image: url(dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 8%;
 }
